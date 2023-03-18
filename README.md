@@ -6,42 +6,42 @@ This is a boilerplate Django application that uses Django Allauth for user authe
 
 To use this boilerplate, follow these steps:
 
-1. Clone the repository:
+### 1. Clone the repository:
 
 ```shell
-git clone https://github.com/example/django-allauth-google-oauth-boilerplate.git
+git clone https://github.com/hidalz/django_app_google_oauth
 ```
 
-2. Install dependencies:
+### 2. Install dependencies:
 
 ```shell
-cd django-allauth-google-oauth-boilerplate
+cd django_app_google_oauth
 pip install -r requirements.txt
 ```
 
-3. Run database migrations:
+### 3. Run database migrations:
 
 ```
-python manage.py migrate
+python3 manage.py migrate
 ```
 
-4. Create a Google OAuth application at the Google Developer Console.
+### 4. Create a Google OAuth application at the Google Developer Console.
 
-5. Create a superuser to log in as admin
+### 5. Create a superuser to log in as admin
 
 ```shell
-python manage.py createsuperuser
+python3 manage.py createsuperuser
 ```
 
-6. Run the development server:
+### 6. Run the development server:
 
 ```shell
-python manage.py runserver
+python3 manage.py runserver
 ```
 
-7. Log in as admin
+### 7. Log in as admin
 
-8. Head to Social Applications and input:
+### 8. Head to Social Applications and input:
 
 - Provider: Google
 - Name: Any, i.e: OAuth app
@@ -58,5 +58,8 @@ To view the registered users, navigate to the Django admin portal at /admin/. Yo
 
 There is /logout/ URL to unlog when registered as any other user.
 
+## Info
+
 Reference: https://www.section.io/engineering-education/django-google-oauth/
 Done for a University Project in Master's in Cybersecurity in UC3M
+
